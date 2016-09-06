@@ -1,0 +1,24 @@
+{
+  "author" : "",
+  "commands" : [
+    {
+      "script" : "ExportLayerToJSON.js",
+      "name" : "ExportLayerToJSON",
+      "handlers" : {
+        "run" : "onRun"
+      },
+      "identifier" : "com.bohemiancoding.sketch.json"
+    }
+  ],
+  "menu" : {
+    "items" : [
+      "com.bohemiancoding.sketch.json"
+    ],
+    "title" : "ExportLayerToJSON"
+  },
+  "identifier" : "com.example.sketch.4cbb6b0e-b9e1-4d02-9e36-876c63f54e0b",
+  "version" : "1.0",
+  "description" : "",
+  "authorEmail" : "",
+  "name" : "ExportLayerToJSON"
+}
