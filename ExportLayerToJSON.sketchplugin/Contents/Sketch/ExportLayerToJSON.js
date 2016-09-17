@@ -67,7 +67,7 @@ function exportJSON(layer, file_path){
 	// Create the JSON object from the layer array
   var jsonObj = { "layer": layerArray };
   // Convert the object to a json string
-  var file = NSString.stringWithString(JSON.stringify(jsonObj));
+  var file = NSString.stringWithString(JSON.stringify(jsonObj, null, "\t"));
   // Save the file
   [file writeToFile:file_path+layerName+".json" atomically:true encoding:NSUTF8StringEncoding error:null];
 
